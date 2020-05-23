@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="DemoProjecct">
+
+	<test name="DataProviden Testng test">
+		<parameter name="url" value="http://newtours.demoaut.com/" />
+		<parameter name="username" value="mercury" />
+		<parameter name="password" value="mercury" />
+		<classes>
+			<class name="practicepackage.DataProviderTestNG" />
+		</classes>
+	</test>
+</suite>

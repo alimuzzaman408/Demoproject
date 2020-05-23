@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DemoProjecct]">
+  <test thread-count="5" name="DataProviden Testng test(failed)">
+    <parameter name="password" value="mercury"/>
+    <parameter name="url" value="http://newtours.demoaut.com/"/>
+    <parameter name="key" value="webdriver.chrome.driver"/>
+    <parameter name="username" value="mercury"/>
+    <classes>
+      <class name="practicepackage.DataProviderTestNG">
+        <methods>
+          <include name="dataprovidetest"/>
+        </methods>
+      </class> <!-- practicepackage.DataProviderTestNG -->
+    </classes>
+  </test> <!-- DataProviden Testng test(failed) -->
+</suite> <!-- Failed suite [DemoProjecct] -->
