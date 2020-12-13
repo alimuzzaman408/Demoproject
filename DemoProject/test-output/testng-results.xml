@@ -2,16 +2,33 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="8811" started-at="2020-05-22T22:51:27 EDT" finished-at="2020-05-22T22:51:35 EDT">
+  <suite name="DemoProjecct" duration-ms="14902" started-at="2020-06-12T23:24:31 EDT" finished-at="2020-06-12T23:24:46 EDT">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="8811" started-at="2020-05-22T22:51:27 EDT" finished-at="2020-05-22T22:51:35 EDT">
-      <class name="practicepackage.OpenBrowser">
-        <test-method status="PASS" signature="open()[pri:0, instance:practicepackage.OpenBrowser@6c49835d]" name="open" duration-ms="8749" started-at="2020-05-22T22:51:27 EDT" finished-at="2020-05-22T22:51:35 EDT">
+    <test name="DataProviden Testng test" duration-ms="14902" started-at="2020-06-12T23:24:31 EDT" finished-at="2020-06-12T23:24:46 EDT">
+      <class name="practicepackage.DataProviderTestNG">
+        <test-method status="PASS" signature="dataprovidetest(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:practicepackage.DataProviderTestNG@10bbd20a]" name="dataprovidetest" duration-ms="14823" started-at="2020-06-12T23:24:31 EDT" finished-at="2020-06-12T23:24:46 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[mercury]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- open -->
-      </class> <!-- practicepackage.OpenBrowser -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- dataprovidetest -->
+      </class> <!-- practicepackage.DataProviderTestNG -->
+    </test> <!-- DataProviden Testng test -->
+  </suite> <!-- DemoProjecct -->
 </testng-results>

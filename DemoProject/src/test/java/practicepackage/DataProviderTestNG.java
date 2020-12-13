@@ -6,6 +6,8 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class DataProviderTestNG {
 	
 	
@@ -15,7 +17,8 @@ public class DataProviderTestNG {
 	
 	public void dataprovidetest(String url ,String username,String password) {
 		
-		System.setProperty( "webdriver.chrome.driver",System.getProperty("user.dir")+"//Driver/chromedriver.exe" );
+		//System.setProperty( "webdriver.chrome.driver",System.getProperty("user.dir")+"//Driver/chromedriver.exe" );
+		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
 		driver.get(url);
 		driver.manage().window().maximize();
@@ -27,21 +30,6 @@ public class DataProviderTestNG {
 		
 		driver.quit();
 		
-		
-		
-		
-		
-		
-		
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-
 }
